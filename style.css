@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    nav: none;
 }
 
 :root {
@@ -16,6 +17,7 @@
 }
 
 html {
+    scroll-behavior: smooth;
     font-size: 62, 5%;
     overflow-x: hidden;
 }
@@ -24,6 +26,7 @@ html {
 *::selection {
     background: #0ef;
     color: #1f242d;
+
 }
 
 body {
@@ -63,8 +66,13 @@ section {
     animation: slideRight 1s ease forwards;
 }
 
-.navbar a {
-    display: inline-block;
+nav ul {
+    display: flex;
+
+}
+
+.navbar  ul li a {
+    display: inline;
     font-size: 1.7rem;
     color: var(--text-color);
     text-decoration: none;
@@ -263,7 +271,6 @@ span {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    min-height: auto;
 }
 
 .services h2 {
@@ -531,7 +538,7 @@ span {
     }
 
     .about {
-        flex-direction: column-reverse;
+        /* flex-direction: column-reverse; */
         width: center;
     }
 
@@ -548,7 +555,13 @@ span {
     }
 
     .portfolio {
-        padding: 3rem, 2%;
+        padding: auto
+        
+    }
+
+    .portfolio h2 {
+        margin-top: 4rem;
+        margin-bottom: 7rem;
     }
 
     .contact {
