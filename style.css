@@ -491,13 +491,13 @@ span {
     color: var(--second-bg-color);
 }
 
-@media (max-width: 1390px) {
+@media screen and  (max-width: 1390px) {
     html {
         font-size: 55%;
     }
 }
 
-@media (max-width: 991px) {
+@media screen and  (max-width: 991px) {
     .header {
         padding: 2rem 3%;
     }
@@ -574,7 +574,7 @@ span {
     }
 }
 
-@media (max-width: 617px) {
+@media screen and (max-width: 600px) {
 
     #menu-icon {
         display: flex;
