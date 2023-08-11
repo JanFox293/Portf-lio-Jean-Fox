@@ -638,7 +638,7 @@ span {
     }
 
     .services {
-        max-height: auto;
+       padding: 10rem;
     }
 
     .services-box {
@@ -656,7 +656,7 @@ span {
     }
 
     .portfolio {
-        min-height: auto;
+     padding: 5rem;
     }
 
     .portfolio-container {
@@ -664,16 +664,12 @@ span {
     }
 
     .contact {
-        min-height: auto;
+        padding: 9rem;
     }
 }
 
 
-@media (max-width: 617px) {
-    .portfolio-container {
-        grid-template-columns: 1fr
-    }
-}
+
 
 
 /* ANIMATIONS */
