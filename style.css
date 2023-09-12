@@ -560,13 +560,14 @@ span {
     }
 
     .home {
-        padding: 20rem;
+        padding: 10rem;
         flex-direction: column;
         
     }
 
     .home-img img {
         width: 50rem;
+        padding-top: 5rem;
 
     }
 
