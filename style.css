@@ -249,6 +249,9 @@ span {
 
 .about-img img {
     width: 35vw;
+    opacity: 0;
+    animation: zoomIn 5s ease forwards, floatImage 3s ease-in-out infinite;
+    animation-delay: 2s, 3s;
 
 }
 
@@ -286,6 +289,12 @@ span {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+}
+
+ .services .heading {
+    opacity: 0;
+    animation: zoomIn 5s ease forwards, floatImage 3s ease-in-out infinite;
+    animation-delay: 2s, 3s;
 }
 
 .services h2 {
@@ -345,6 +354,13 @@ span {
     gap: 2rem;
     min-height: auto;
 
+}
+
+.portfolio .heading {
+    padding-top: 10rem;
+    opacity: 0;
+    animation: zoomIn 5s ease forwards, floatImage 3s ease-in-out infinite;
+    animation-delay: 2s, 3s;
 }
 
 .portfolio h2 {
@@ -432,6 +448,13 @@ span {
 .contact {
     color: var(--text-color);
     background: var(--second-bg-color);
+}
+
+.contact .heading {
+    padding-top: 10rem;
+    opacity: 0;
+    animation: zoomIn 5s ease forwards, floatImage 3s ease-in-out infinite;
+    animation-delay: 2s, 3s;
 }
 
 .contact h2 {
@@ -556,18 +579,18 @@ span {
     
 
     html {
-        font-size: 50%;
+        font-size: 40%;
     }
 
     .home {
-        padding: 10rem;
+        padding: 15rem;
         flex-direction: column;
         
     }
 
     .home-img img {
-        width: 50rem;
-        padding-top: 5rem;
+        padding-top: 10rem;
+        width: 70rem;
 
     }
 
@@ -577,23 +600,24 @@ span {
     }
 
     .about-img img {
-        width: 50rem;
+        padding: 10rem;
+        width: 90rem;
     }
 
     .service-container {
         flex-direction: column;
     }
 
-    #contact {
-        padding: 15rem;
-        min-height: auto;
-    }
-
     .portfolio-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
-        gap: 2.5rem;
+        gap: 5rem;
+        min-height: auto;
+    }
+
+    #contact {
+        padding: 5rem;
         min-height: auto;
     }
 
