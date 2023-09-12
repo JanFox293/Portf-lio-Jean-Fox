@@ -6,6 +6,14 @@ var typed = new Typed(".multiple-text", {
     loop: true
 })
 
+var points = new Typed(".points", {
+    strings: ["..."],
+    typeSpeed: 1000,
+    backSpeed: 1000,
+    backDelay: 1000,
+    loop: true
+})
+
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
